@@ -36,10 +36,8 @@ public class orang3javaified extends Mod{
 
 }
 //defense
-        leadWall
+leadWall
     ;
-        public static void load(){
-        //region environment
 
         air = new AirBlock("air");
 
