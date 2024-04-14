@@ -47,7 +47,6 @@ public class orang3javaified extends Mod{
 }
 //defense
 Block leadWall
-;
 
 
 
