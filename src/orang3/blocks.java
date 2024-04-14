@@ -42,11 +42,11 @@ public class orang3javaified extends Mod{
             researchCostMultiplier = 0.1f;
             envDisabled |= Env.scorching;
         }}; 
+        //defense
+        Block leadWall
     }
 
 }
-//defense
-Block leadWall
 
 
 
