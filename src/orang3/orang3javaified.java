@@ -1,5 +1,5 @@
 package orang3;
-import mindustry.world.Block
+import mindustry.world.Block;
 import mindustry.type.Category;
 import mindustry.content.Items;
 import mindustry.type.ItemStack;
