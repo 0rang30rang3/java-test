@@ -35,20 +35,7 @@ public class orang3javaified extends Mod{
     }
 
 }
-public static void load(){
-        //region environment
-
-        air = new AirBlock("air");
-
-        spawn = new SpawnBlock("spawn");
-
-        cliff = new Cliff("cliff"){{
-            inEditor = false;
-            saveData = true;
-        }};
-
         
-        }
         //region defense
 
         int wallHealthMultiplier = 4;
