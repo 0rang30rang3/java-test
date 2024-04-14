@@ -1,4 +1,4 @@
-package example;
+package orang3;
 
 import arc.*;
 import arc.util.*;
