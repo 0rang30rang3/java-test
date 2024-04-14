@@ -39,14 +39,7 @@ public class orang3javaified extends Mod{
 leadWall
     ;
 
-        air = new AirBlock("air");
 
-        spawn = new SpawnBlock("spawn");
-
-        cliff = new Cliff("cliff"){{
-            inEditor = false;
-            saveData = true;
-        }};
 
         //region defense
 
