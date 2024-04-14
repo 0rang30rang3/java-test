@@ -10,7 +10,8 @@ import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
 public class orang3javaified extends Mod{
-
+//defense
+    Block leadWall;
     public orang3javaified(){
         Log.info("Loaded orang3javaified constructor.");
 
@@ -42,8 +43,6 @@ public class orang3javaified extends Mod{
             researchCostMultiplier = 0.1f;
             envDisabled |= Env.scorching;
         }}; 
-        //defense
-        Block leadWall
     }
 
 }
