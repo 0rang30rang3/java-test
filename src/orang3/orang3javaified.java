@@ -28,9 +28,37 @@ public class orang3javaified extends Mod{
         });
     }
 
+    
     @Override
     public void loadContent(){
         Log.info("Loading some example content.");
     }
 
 }
+public static void load(){
+        //region environment
+
+        air = new AirBlock("air");
+
+        spawn = new SpawnBlock("spawn");
+
+        cliff = new Cliff("cliff"){{
+            inEditor = false;
+            saveData = true;
+        }};
+
+        //Registers build blocks
+        //no reference is needed here since they can be looked up by name later
+        for(int i = 1; i <= Vars.maxBlockSize; i++){
+            new ConstructBlock(i);
+        }
+        //region defense
+
+        int wallHealthMultiplier = 4;
+
+        leadWall = new Wall("lead-wall"){{
+            requirements(Category.defense, with(Items.lead, 6));
+            health = 85 * wallHealthMultiplier;
+            researchCostMultiplier = 0.1f;
+            envDisabled |= Env.scorching;
+        }};
