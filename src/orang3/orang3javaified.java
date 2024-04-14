@@ -47,10 +47,7 @@ public static void load(){
             saveData = true;
         }};
 
-        //Registers build blocks
-        //no reference is needed here since they can be looked up by name later
-        for(int i = 1; i <= Vars.maxBlockSize; i++){
-            new ConstructBlock(i);
+        
         }
         //region defense
 
