@@ -1,14 +1,14 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "0range Javaified"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "0rang3javaified"
 
 #your name
-author: "You"
+author: "0rang3"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "example.0rang3javaified"
 
 #the mod description as seen in the mod dialog
 description: "A Mindustry Java mod template."
@@ -17,7 +17,7 @@ description: "A Mindustry Java mod template."
 version: 1.0
 
 #the minimum game build required to run this mod
-minGameVersion: 145
+minGameVersion: 146
 
 #this is a java mod
 java: true
