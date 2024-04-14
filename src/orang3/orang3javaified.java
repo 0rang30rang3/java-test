@@ -39,7 +39,7 @@ public class orang3javaified extends Mod{
         int wallHealthMultiplier = 4;
 
         leadWall = new Wall("lead-wall"){{
-            requirements(Category.defense, with(Items.lead, 6));
+requirements(Category.defense, new ItemStack[] { new ItemStack(Items.lead, 6)});
             health = 85 * wallHealthMultiplier;
             researchCostMultiplier = 0.1f;
             envDisabled |= Env.scorching;
