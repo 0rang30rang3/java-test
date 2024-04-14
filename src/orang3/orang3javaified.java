@@ -9,10 +9,10 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class 0rang3javaified extends Mod{
+public class orang3javaified extends Mod{
 
-    public 0rang3javaified(){
-        Log.info("Loaded 0rang3javaified constructor.");
+    public orang3javaified(){
+        Log.info("Loaded orang3javaified constructor.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
