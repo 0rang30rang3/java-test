@@ -32,15 +32,6 @@ public class orang3javaified extends Mod{
     @Override
     public void loadContent(){
         Log.info("Loading some example content.");
-    }
-
-}
-//defense
-leadWall
-    ;
-
-
-
         //region defense
 
         int wallHealthMultiplier = 4;
@@ -50,4 +41,13 @@ leadWall
             health = 85 * wallHealthMultiplier;
             researchCostMultiplier = 0.1f;
             envDisabled |= Env.scorching;
-        }};
+        }}; 
+    }
+
+}
+//defense
+Block leadWall
+;
+
+
+
