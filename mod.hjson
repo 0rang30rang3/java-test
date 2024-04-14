@@ -8,7 +8,7 @@ name: "0rang3javaified"
 author: "0rang3"
 
 #the fully qualified main class of the mod
-main: "example.0rang3javaified"
+main: "0rang3.0rang3javaified"
 
 #the mod description as seen in the mod dialog
 description: "A Mindustry Java mod template."
